@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <link type="stylesheet" href="css/">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+</head> 
+   
+<body>
+    <nav class="navbar navbar-expand-md">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="main-navigation" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="best.html">Best Seller</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+        </ul>
+    </div>
+    </nav><hr>
+    <h4 style="text-align: center;"><u>Contact US</u></h4>
+    <div class="contact_info">
+        <div class="info_item">
+            <i class="lnr lnr-home"></i>
+            <h6>California, United States</h6>
+            <p>Santa monica bullevard</p>
+        </div>
+        <div class="info_item">
+            <i class="lnr lnr-phone-handset"></i>
+            <h6><a href="#">00 (440) 9865 562</a></h6>
+            <p>Mon to Fri 9am to 6 pm</p>
+        </div>
+        <div class="info_item">
+            <i class="lnr lnr-envelope"></i>
+            <h6><a href="#">support@colorlib.com</a></h6>
+            <p>Send us your query anytime!</p>
+        </div>
+    </div><hr>
+    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+        <div class="col-md-6">
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+            </div>
+        </div>
+        <div class="col-md-12 text-right">
+            <button type="submit" value="submit" class="primary-btn text-uppercase">Send Message</button>
+        </div>
+    </form>
+<hr>
+    <footer class="fixed-bottom"><p style="text-align: center;">Our Restaurant</p></footer>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
